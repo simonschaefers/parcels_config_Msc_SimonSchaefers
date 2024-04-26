@@ -1,0 +1,7 @@
+advection_routines/__*
+advection_routines/.ipynb_checkpoints
+advection_routines/movie*
+advection_routines/plot_layouts*
+
+year_tracker/*.txt
+zarr_storage/*.zarr
