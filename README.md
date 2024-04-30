@@ -8,6 +8,8 @@
   - `parcels_routines.py`: file includes the core parts of the advection routine, following the OceaParcels syntax of fieldset, particle set and kernels. Further, it includes a start set for particles based on density (`find_density`), and a routine to remove stuck particles from advection (`delete_stuck_particles`).
   - `post_process.py`: file includes two classes that allow for creation and plotting of metadata from a dataset produced by `advection_routines.merge_zarr`. `PlotableClass` allows for plotting of ventilation position and transit time distributions, `AnalyseTrajectory` produces metadata, such as start and ventilation position for each trajectory, that are easier to handle than the whole dataset.
 
+- `vizualisation+results`: folder to empathize results and general mechanisms of the particle advection
+  
 ### General Information
 
 - Velocity fields are not included in this documentation, the setup still relies on precise (hard coded) filenames etc.
