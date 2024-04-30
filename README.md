@@ -11,4 +11,12 @@
 ### General Information
 
 - Velocity fields are not included in this documentation, the setup still relies on precise (hard coded) filenames etc.
-- The execution is performed with a config file, restarting the `full_execution` after 2 years of advection, due to limited computation time.  
+- The execution is performed with a config file, restarting the `full_execution` after 2 years of advection, due to limited computation time.
+
+### Development
+
+- Upcoming uploads
+  - config file and bash scripts for the execution 
+  - advanced analysis of output dataset
+- extended soft coding
+- run time saving adjustments in `advection_routines/parcels_routines.delete_stuck_particles`
